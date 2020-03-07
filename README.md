@@ -5,3 +5,7 @@
 sudo docker-compose build
 sudo docker-compose up
 ```
+## Пример использования:
+```
+http://95.165.133.240/fib?num=10
+```
