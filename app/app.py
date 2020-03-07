@@ -35,9 +35,9 @@ def fib(n):
 app = Flask(__name__)
 port = int(os.environ.get("PORT", 5000))
 
-@app.route('/k')
+@app.route('/fib')
 def fib_ws():
-    number = request.args.get('num')
+    number = request.args.get('k')
     try:
         number = int(number)
     except ValueError:
